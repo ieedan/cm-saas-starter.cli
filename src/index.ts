@@ -16,7 +16,7 @@ const main = async () => {
 			repo: 'https://github.com/CriticalMoments/CMSaasStarter.git',
 			excludeFiles: ['SECURITY.md', 'LICENSE'],
 			copyCompleted: async ({ dir }) => {
-				fs.rename(path.join(dir, 'local_env_template'), path.join(dir, '.env.local'));
+				await fs.rename(path.join(dir, 'local_env_template'), path.join(dir, '.env.local'));
 			},
 			prompts: [
 				{

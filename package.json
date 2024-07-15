@@ -1,0 +1,44 @@
+{
+	"name": "cm-saas-starter.cli",
+	"description": "",
+	"version": "1.0.0",
+	"author": "",
+	"main": "bin.mjs",
+	"bin": "./bin.mjs",
+	"type": "module",
+	"files": [
+		"bin.mjs",
+		"package.json",
+		"package-lock.json",
+		"README.md",
+		"templates",
+		"dist"
+	],
+	"scripts": {
+		"start": "unbuild && node bin.mjs",
+		"build": "unbuild",
+		"format": "npx prettier . --write",
+		"lint": "npx prettier . --check && npx eslint ."
+	},
+	"keywords": [],
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^5.3.0",
+		"execa": "^9.3.0",
+		"fs-extra": "^11.2.0",
+		"template-factory": "^0.1.7"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.7.0",
+		"@types/fs-extra": "^11.0.4",
+		"eslint": "^9.7.0",
+		"globals": "^15.8.0",
+		"prettier": "^3.3.3",
+		"typescript": "^5.5.3",
+		"typescript-eslint": "^7.16.1",
+		"unbuild": "^2.0.0"
+	},
+	"overrides": {
+		"eslint": "^9.7.0"
+	}
+}

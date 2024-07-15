@@ -1,11 +1,6 @@
-# Get Started with template-factory
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3676543b-73fc-4074-b1ac-de70b315938c">
+</div>
 
-This is a start project for creating your own project templates with template factory.
-
-## Development
-
-Write your program in `index.[js|ts]` and then run:
-
-```bash
-npm run start
-```
+# CM SaaS Start CLI
+A demo repo for a CLI for the https://github.com/CriticalMoments/CMSaasStarter project.

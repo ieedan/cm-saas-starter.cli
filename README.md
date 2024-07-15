@@ -4,3 +4,9 @@
 
 # CM SaaS Start CLI
 A demo repo for a CLI for the https://github.com/CriticalMoments/CMSaasStarter project.
+
+# Publishing
+Once published users will be able to install the app by running:
+```bash
+npx package-name@latest
+```
